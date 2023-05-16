@@ -1,0 +1,12 @@
+# To test certifind on SSL HASHES - 1
+python ../certifind.py ssl -i ./test_hash.txt -c ./checked_hashes.txt -o ./hash_output
+
+# To test certifind on URLs - 2
+python ../certifind.py url -i ./test_url.txt -c ./checked_urls.txt -o ./url_output
+
+# To test converting - 3
+python ../convert_cert.py -f crt -t pem -i ./convert_from -o ./convert_to
+
+# To test checked (must be done after 1 and 2)
+python ../checked.py url -hi ./url_hits.txt -c ./checked_urls.txt -i ./url_output -o ./
+python ../checked.py ssl -hi ./hash_hits.txt -c ./checked_hashes.txt -i ./hash_output -o ./
