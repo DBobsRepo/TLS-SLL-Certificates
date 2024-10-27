@@ -268,14 +268,6 @@ As of now there are no plan to update this repo continually. Running the <span>c
 
 There are some improvement to be made such as changing the way in which querying crt.sh happens. It currently uses selenium, but this could be replaced by an sql query to the postgres database.
 
-## License
-
-Distributed under the GNU AFFERO GENERAL PUBLIC License. See [LICENSE](https://github.com/DBobsRepo/TLS-SLL-Certificates/blob/main/LICENSE.md) for more information.
-
-## Authors
-
-* **Ethan** - *Student* - [DBobRepos](https://github.com/DBobCerts/) - *Built CertiFind*
-
 ## Acknowledgements
 
 * [ShaanCoding](https://github.com/ShaanCoding/) for README file template
